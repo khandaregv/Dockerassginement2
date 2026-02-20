@@ -15,7 +15,7 @@ label{
 
 					sh "sudo docker ps -aq | xargs -r sudo docker rm -f"
 
-					sh "sudo docker run -itd --name Q1 httpd"
+					sh "sudo docker run -itdp 80:80 --name Q1 httpd"
 
 					sh "sudo cp /mnt/slave1/index.html /Git"
 

@@ -2,10 +2,11 @@
 pipeline {
 
 	agent {
+label {
 		label "slave2"
 		customWorkspace "/mnt/slave2/" 
 	      }
-
+	}
 		stages {
 
 			stage ("One"){

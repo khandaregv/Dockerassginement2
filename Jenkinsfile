@@ -21,7 +21,7 @@ label{
 
 					sh "sudo chmod -R 777 /Git/index.html"
 
-					sh "sudo docker cp /Git/index.html Q1:/usr/local/apache2/htdocs/"
+					sh "sudo docker cp /Git/index.html Q1:/usr/local/apache2/htdocs"
 
 					}
 
